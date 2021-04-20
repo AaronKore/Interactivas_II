@@ -1,0 +1,213 @@
+@font-face {
+  font-family: "NotoBold";
+  src: url("../fonts/notosans-bold-webfont.eot");
+  src: url("../fonts/notosans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-bold-webfont.woff2") format("woff2"), url("../fonts/notosans-bold-webfont.woff") format("woff"), url("../fonts/notosans-bold-webfont.ttf") format("truetype"), url("../fonts/notosans-bold-webfont.svg#noto_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoItalic";
+  src: url("../fonts/notosans-italic-webfont.eot");
+  src: url("../fonts/notosans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-italic-webfont.woff2") format("woff2"), url("../fonts/notosans-italic-webfont.woff") format("woff"), url("../fonts/notosans-italic-webfont.ttf") format("truetype"), url("../fonts/notosans-italic-webfont.svg#noto_sansitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoRegular";
+  src: url("../fonts/notosans-regular-webfont.eot");
+  src: url("../fonts/notosans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-regular-webfont.woff2") format("woff2"), url("../fonts/notosans-regular-webfont.woff") format("woff"), url("../fonts/notosans-regular-webfont.ttf") format("truetype"), url("../fonts/notosans-regular-webfont.svg#noto_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoLight";
+  src: url("../fonts/notosans-light-webfont.woff2") format("woff2"), url("../fonts/notosans-light-webfont.woff") format("woff"), url("../fonts/notosans-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/*CLASES*/
+.container-fluid {
+  margin: 0%;
+  padding: 0%;
+}
+
+.top-bar {
+  width: 100%;
+  padding: 2em 7em;
+  background: #353f46;
+  opacity: 90%;
+}
+
+.logo {
+  font-size: 30px;
+  font-family: "notobold";
+  text-decoration: none;
+  color: white;
+}
+
+.top-nav {
+  padding: 0%;
+  margin: 0%;
+  float: right;
+}
+
+.top-nav-item {
+  padding: 0.6em 1em;
+  margin: 0%;
+  display: inline-block;
+}
+
+.top-nav-link {
+  text-decoration: none;
+  font-family: "notobold";
+  font-size: 14px;
+  color: white;
+}
+
+.img1 {
+  background: url(../imgs/header.jpg);
+  padding: 19em 2em;
+  text-align: center;
+}
+
+.title {
+  padding: 0%;
+  margin: 0.15em;
+  font-size: 42px;
+  font-family: "notolight";
+  color: white;
+  background: #353f46;
+  opacity: 70%;
+  display: inline-block;
+}
+
+.servicios {
+  padding: 5em 7.9em;
+  background: #4bcaff;
+}
+
+.title-servicios {
+  color: white;
+  font-size: 30px;
+  font-family: "notolight";
+  padding: 0%;
+  margin: 0%;
+}
+
+.linea {
+  width: 5%;
+  height: 2px;
+  padding: 0%;
+  margin: -0.2em 0 1em 0em;
+  background: white;
+  display: block;
+}
+
+.subtitulo-servicios {
+  color: white;
+  font-family: "notoregular";
+  font-size: 24px;
+  margin: 0%;
+  padding: 0.5em 0em;
+}
+
+.col-sm-3 {
+  padding: 0%;
+  margin: 0%;
+}
+
+.descripcion {
+  color: white;
+  font-size: 12px;
+  font-family: "notoregular";
+  padding: 0em 3em 0em 0em;
+}
+
+.portafolio {
+  color: #515f67;
+  font-family: "notolight";
+  font-size: 30px;
+  padding: 0;
+  margin: 0%;
+}
+.portafolio .linea2 {
+  width: 13.5%;
+  height: 2px;
+  padding: 0em 0.3em;
+  margin: 0.1em 0 1em 0em;
+  background: #515f67;
+  display: block;
+}
+
+.portafolio-padding {
+  padding: 4.5em 2.5em;
+}
+
+.img-padding {
+  padding: 0em 2.5em;
+}
+
+.col-sm-derecha {
+  padding: 0em 0.7em;
+  text-align: right;
+}
+
+.contenido-centro {
+  padding: 1.3em 0em 0em 7.9em;
+}
+
+.work {
+  display: inline-block;
+  padding: 0;
+  position: relative;
+  margin: 0.5em;
+  cursor: pointer;
+}
+.work img {
+  width: 100%;
+  height: auto;
+}
+
+.default-section {
+  background: #353f46;
+  color: white;
+  padding: 4em 1em;
+  margin: 3em 0em;
+}
+
+.video-title {
+  font-family: "notolight";
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+
+.linea-just {
+  width: 4%;
+  height: 2px;
+  padding: -0.2em 0em;
+  margin: 0.3em 0em;
+  background: white;
+  display: block;
+}
+
+.video-text {
+  font-family: "notoregular";
+  font-size: 14px;
+  margin-bottom: 2em;
+}
+
+.video {
+  position: relative;
+  left: 37.8em;
+  bottom: 19.5em;
+}
+
+.button-visit {
+  color: white;
+  background: #06090b;
+  padding: 1em 3em;
+  font-family: "notobold";
+  font-size: 14px;
+  border: none;
+  text-align: center;
+}

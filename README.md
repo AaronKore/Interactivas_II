@@ -1,2 +1,2 @@
 # Interactivas_II
-Info del proyecto
+*Info del proyecto*

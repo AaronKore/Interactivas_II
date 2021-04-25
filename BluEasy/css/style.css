@@ -26,6 +26,7 @@
   font-style: normal;
 }
 /*CLASES*/
+/*TOP NAV*/
 .container-fluid {
   margin: 0%;
   padding: 0%;
@@ -33,7 +34,7 @@
 
 .top-bar {
   width: 100%;
-  padding: 2em 7em;
+  padding: 2em 11em;
   background: #353f46;
   opacity: 90%;
 }
@@ -43,6 +44,12 @@
   font-family: "notobold";
   text-decoration: none;
   color: white;
+  position: relative;
+  right: 2.1em;
+}
+
+.e {
+  color: #4bcaff;
 }
 
 .top-nav {
@@ -64,6 +71,8 @@
   color: white;
 }
 
+/*TOP NAV*/
+/*CENTRAL TEXT*/
 .img1 {
   background: url(../imgs/header.jpg);
   padding: 19em 2em;
@@ -81,9 +90,12 @@
   display: inline-block;
 }
 
+/*CENTRAL TEXT*/
+/*SECTIONS*/
 .servicios {
   padding: 5em 7.9em;
   background: #4bcaff;
+  width: 85.1em;
 }
 
 .title-servicios {
@@ -95,7 +107,7 @@
 }
 
 .linea {
-  width: 5%;
+  width: 4.5%;
   height: 2px;
   padding: 0%;
   margin: -0.2em 0 1em 0em;
@@ -123,15 +135,15 @@
   padding: 0em 3em 0em 0em;
 }
 
+/*SECTIONS*/
+/*PORTFOLIO*/
 .portafolio {
   color: #515f67;
   font-family: "notolight";
   font-size: 30px;
-  padding: 0;
-  margin: 0%;
 }
 .portafolio .linea2 {
-  width: 13.5%;
+  width: 5.5%;
   height: 2px;
   padding: 0em 0.3em;
   margin: 0.1em 0 1em 0em;
@@ -140,16 +152,33 @@
 }
 
 .portafolio-padding {
-  padding: 4.5em 2.5em;
+  padding: 5em 1em;
+  height: 11em;
 }
 
 .img-padding {
-  padding: 0em 2.5em;
+  padding: 0em 1em;
+}
+
+.top-nav-portfolio {
+  text-decoration: none;
+  font-family: "notobold";
+  font-size: 14px;
+  color: #515f67;
 }
 
 .col-sm-derecha {
   padding: 0em 0.7em;
   text-align: right;
+}
+
+.col-sm-derecha-item {
+  padding: 0em 0em;
+  margin: 0em 0em;
+  text-align: right;
+  position: relative;
+  bottom: 5em;
+  left: 0.5em;
 }
 
 .contenido-centro {
@@ -164,15 +193,26 @@
   cursor: pointer;
 }
 .work img {
-  width: 100%;
   height: auto;
+  width: 220px;
 }
 
+.position-item {
+  position: relative;
+  right: 2.8em;
+}
+
+/*PORTFOLIO*/
+/*VIDEO*/
 .default-section {
-  background: #353f46;
+  background: #515f67;
   color: white;
-  padding: 4em 1em;
-  margin: 3em 0em;
+  height: 27.5em;
+  margin-top: 3em;
+  position: relative;
+  right: 2em;
+  width: 87em;
+  padding-left: 1em;
 }
 
 .video-title {
@@ -182,10 +222,10 @@
 }
 
 .linea-just {
-  width: 4%;
+  width: 7.5%;
   height: 2px;
   padding: -0.2em 0em;
-  margin: 0.3em 0em;
+  margin: 0.2em 0em;
   background: white;
   display: block;
 }
@@ -194,20 +234,232 @@
   font-family: "notoregular";
   font-size: 14px;
   margin-bottom: 2em;
+  position: relative;
+  bottom: 1em;
 }
 
 .video {
   position: relative;
-  left: 37.8em;
-  bottom: 19.5em;
+  bottom: 4.5em;
+  right: 9.9em;
+  width: 25em;
 }
 
-.button-visit {
-  color: white;
-  background: #06090b;
+.btn-visit {
+  color: #353f46;
+  background: none;
   padding: 1em 3em;
   font-family: "notobold";
   font-size: 14px;
-  border: none;
+  border: solid #353f46;
   text-align: center;
+  position: relative;
+  bottom: 2em;
 }
+
+/*VIDEO*/
+/*TWITTER*/
+.twitter-section {
+  background: #4bcaff;
+  padding: 4em 0em;
+  color: white;
+  width: 85em;
+}
+
+.twitter {
+  font-size: 30px;
+  font-family: "notolight";
+}
+.twitter .linea-twitter {
+  width: 5%;
+  height: 2px;
+  padding: -0.2em 0em;
+  margin: 0.1em 0em;
+  background: white;
+  display: block;
+}
+
+.twitter-icon {
+  position: relative;
+  left: 44.5em;
+  bottom: 2.5em;
+}
+
+.twitter-text {
+  font-size: 23px;
+  font-family: "notolight";
+  margin-top: 0.5em;
+  margin-left: 0em;
+  padding: 0em 0em;
+}
+
+.mention {
+  font-size: 23px;
+  font-family: "notoregular";
+}
+
+/*TWITTER*/
+/*JOHN*/
+.john-doe {
+  background: url(../imgs/camera.jpg);
+  padding: 7.5em 0.5em;
+  width: 85em;
+}
+
+.john-format1 {
+  color: white;
+  font-family: "notolight";
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+
+.john-format2 {
+  color: white;
+  font-family: "notoregular";
+  font-size: 14px;
+  margin-right: 1em;
+  padding-right: 2em;
+}
+
+.icons-john {
+  margin: 0em 1em 1em 0em;
+  border: solid white;
+  padding: 1em;
+}
+
+/*JOHN*/
+/*TESTIMONIALS*/
+.testimonials {
+  margin: 4em 0em;
+  position: relative;
+  right: 0.5em;
+}
+
+.testimonials-format {
+  color: #353f46;
+  font-size: 30px;
+  font-family: "notolight";
+  margin-bottom: 1em;
+}
+.testimonials-format .linea-testimonial {
+  width: 4%;
+  height: 2px;
+  padding: -0.2em 0em;
+  margin: 0.1em 0em;
+  background: #06090b;
+  display: block;
+}
+
+.testimonials-text {
+  color: #353f46;
+  font-size: 26px;
+  font-family: "notolight";
+  margin-bottom: 1em;
+}
+
+.cita-testimonial {
+  color: #4bcaff;
+  font-size: 14px;
+  font-family: "notobold";
+}
+
+/*TESTIMONIALS*/
+/*CONTACT*/
+.contact-section {
+  background: url(../imgs/contact.jpg);
+  padding: 4em 0em;
+}
+
+.contact {
+  color: white;
+  font-size: 30px;
+  font-family: "notolight";
+  padding-left: 0.5em;
+}
+.contact .linea-contact {
+  width: 4%;
+  height: 2px;
+  padding: -0.2em 0em;
+  margin: 0.1em 0em;
+  background: white;
+  display: block;
+}
+
+.labels {
+  color: white;
+  font-family: "notobold";
+  font-size: 14px;
+  margin-top: 1em;
+}
+
+.contact-text {
+  color: white;
+  font-size: 14px;
+  font-family: "notoregular";
+  position: relative;
+  bottom: 0.8em;
+}
+
+.textfield {
+  width: 75%;
+  margin-left: 1em;
+  background: transparent;
+  border: solid white;
+  color: white;
+  font-size: 14px;
+  font-family: "notoregular";
+}
+
+.message-txtField {
+  margin: 0em 0em 3em 1em;
+  background: transparent;
+  border: solid white;
+  color: white;
+  font-size: 14px;
+  font-family: "notoregular";
+}
+
+.btn-message {
+  width: 35.2%;
+  margin-left: 1em;
+  padding: 1em 1em;
+  background: #4bcaff;
+  color: white;
+  border: none;
+}
+
+/*CONTACT*/
+/*FOOTER*/
+.footer {
+  background: #353f46;
+  color: rgba(53, 63, 70, 0.7);
+  font-size: 12px;
+  font-family: "notoregular";
+  padding: 5em 0em;
+}
+
+.bottom-nav-item {
+  padding: 0em;
+  margin: 0%;
+  display: inline-block;
+}
+
+.bottom-nav-link {
+  text-decoration: none;
+  font-family: "notobold";
+  font-size: 14px;
+  color: #435058;
+}
+
+.margin-bottom {
+  margin: 0em 0em 0em 1em;
+  padding: 0em;
+  position: relative;
+  right: 1em;
+}
+
+.bottom-simbol {
+  margin: 0em 1em 0em 1em;
+}
+
+/*FOOTER*/

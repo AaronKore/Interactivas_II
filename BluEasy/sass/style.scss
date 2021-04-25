@@ -6,13 +6,15 @@ $gris: #353f46;
 $blanco: white;
 
 /*CLASES*/
+
+/*TOP NAV*/
 .container-fluid{
     margin: 0%;
     padding: 0%;
 }
 .top-bar{
     width: 100%;
-    padding: 2em 7em;
+    padding: 2em 11em;
     background: $gris ;
     opacity: 90%;
 }
@@ -21,6 +23,11 @@ $blanco: white;
     font-family: 'notobold';
     text-decoration: none;
     color: $blanco;
+    position: relative;
+    right: 2.1em;
+}
+.e{
+    color: #4bcaff;
 }
 .top-nav{
     padding: 0%;
@@ -38,7 +45,9 @@ $blanco: white;
     font-size: 14px;
     color: $blanco;
 }
+/*TOP NAV*/
 
+/*CENTRAL TEXT*/
 .img1{
     background: url(../imgs/header.jpg);
     padding: 19em 2em;
@@ -54,9 +63,13 @@ $blanco: white;
     opacity: 70%;
     display: inline-block;
 }
+/*CENTRAL TEXT*/
+
+/*SECTIONS*/
 .servicios{
     padding: 5em 7.90em;
     background: #4bcaff ;
+    width: 85.1em;
 }
 .title-servicios{
     color: $blanco;
@@ -66,7 +79,7 @@ $blanco: white;
     margin: 0%;
 }
 .linea{
-    width: 5%;
+    width: 4.5%;
     height: 2px;
     padding: 0%;
     margin: -0.2em 0 1em 0em;
@@ -90,16 +103,16 @@ margin: 0%;
     font-family: 'notoregular';
     padding: 0em 3em 0em 0em;
 }
+/*SECTIONS*/
 
+/*PORTFOLIO*/
 .portafolio{
     color: #515f67;
     font-family: 'notolight';
     font-size: 30px;
-    padding: 0;
-    margin: 0%;
-
+    
     .linea2{
-        width: 13.5%;
+        width: 5.5%;
         height: 2px;
         padding: 0em 0.3em;
         margin: 0.1em 0 1em 0em;
@@ -108,14 +121,29 @@ margin: 0%;
     }
 }
 .portafolio-padding{
-    padding: 4.5em 2.5em;
+    padding: 5em 1em;
+    height: 11em;
 }
 .img-padding{
-    padding: 0em 2.5em;
+    padding: 0em 1em;
+}
+.top-nav-portfolio{
+    text-decoration: none;
+    font-family: 'notobold';
+    font-size: 14px;
+    color: #515f67;
 }
 .col-sm-derecha{
     padding: 0em 0.7em;
     text-align: right;
+}
+.col-sm-derecha-item{
+    padding: 0em 0em;
+    margin: 0em 0em;
+    text-align: right;
+    position: relative;
+    bottom: 5em;
+    left: 0.5em;
 }
 .contenido-centro{
 padding: 1.3em 0em 0em 7.9em;
@@ -128,16 +156,26 @@ padding: 1.3em 0em 0em 7.9em;
     cursor: pointer;
 
     img{
-        width: 100%;
         height: auto;
+        width: 220px;
     }
 }
+.position-item{
+    position: relative;
+    right: 2.8em;
+}
+/*PORTFOLIO*/
 
+/*VIDEO*/
 .default-section{
-    background:  $gris;
+    background: #515f67;
     color: $blanco;
-    padding: 4em 1em;
-    margin: 3em 0em;
+    height: 27.5em;
+    margin-top: 3em;
+    position: relative;
+    right: 2em;
+    width: 87em;
+    padding-left: 1em;
 }
 
 .video-title{
@@ -146,10 +184,10 @@ padding: 1.3em 0em 0em 7.9em;
     margin-bottom: 1em;
     }
     .linea-just{
-        width: 4%;
+        width: 7.5%;
         height: 2px;
         padding: -0.2em 0em;
-        margin: 0.3em 0em;
+        margin: 0.2em 0em;
         background: $blanco;
         display: block;
     }
@@ -157,18 +195,213 @@ padding: 1.3em 0em 0em 7.9em;
         font-family: 'notoregular';
         font-size: 14px;
         margin-bottom: 2em;
+        position: relative;
+        bottom: 1em;
     }
 .video{
     position: relative;
-    left: 37.8em;
-    bottom: 19.5em;
+    bottom: 4.5em;
+    right: 9.9em;
+    width: 25em;
 }
-.button-visit{
-color: $blanco;
-background:  #06090b;
+.btn-visit{
+color: $dark-bg;
+background: none;
 padding: 1em 3em;
 font-family: 'notobold';
 font-size: 14px;
-border: none;
+border: solid $dark-bg;
 text-align: center;
+position: relative;
+bottom: 2em;
 }
+/*VIDEO*/
+
+/*TWITTER*/
+.twitter-section{
+background: #4bcaff;
+padding: 4em 0em;
+color: $blanco;
+width: 85em;
+}
+.twitter{
+    font-size: 30px;
+    font-family: 'notolight';
+
+    .linea-twitter{
+        width: 5%;
+        height: 2px;
+        padding: -0.2em 0em;
+        margin: 0.1em 0em;
+        background: $blanco;
+        display: block;
+    }
+}
+.twitter-icon{
+position: relative;
+left: 44.5em;
+bottom: 2.5em;
+}
+.twitter-text{
+    font-size: 23px;
+    font-family: 'notolight';
+    margin-top: 0.5em;
+    margin-left: 0em;
+    padding: 0em 0em;
+}
+.mention{
+    font-size: 23px;
+    font-family: 'notoregular'; 
+}
+/*TWITTER*/
+
+/*JOHN*/
+.john-doe{
+    background: url(../imgs/camera.jpg);
+    padding: 7.5em 0.5em;
+    width: 85em;
+}
+.john-format1{
+    color: $blanco;
+    font-family: 'notolight';
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+.john-format2{
+    color: $blanco;
+    font-family: 'notoregular';
+    font-size: 14px;
+    margin-right: 1em;
+    padding-right: 2em;
+}
+.icons-john{
+margin: 0em 1em 1em 0em;
+border: solid $blanco;
+padding: 1em;
+}
+/*JOHN*/
+
+/*TESTIMONIALS*/
+.testimonials{
+margin: 4em 0em;
+position: relative;
+right: 0.5em;
+
+}
+.testimonials-format{
+    color: $dark-bg;
+    font-size: 30px;
+    font-family: 'notolight';
+    margin-bottom: 1em;
+
+    .linea-testimonial{
+        width: 4%;
+        height: 2px;
+        padding: -0.2em 0em;
+        margin: 0.1em 0em;
+        background: $visit-me-color;
+        display: block;
+    }
+}
+.testimonials-text{
+    color: $dark-bg;
+    font-size: 26px;
+    font-family: 'notolight';
+    margin-bottom: 1em;
+}
+.cita-testimonial{
+    color: $light-blue;
+    font-size: 14px;
+    font-family: 'notobold';
+}
+/*TESTIMONIALS*/
+
+/*CONTACT*/
+.contact-section{
+background: url(../imgs/contact.jpg);
+padding: 4em 0em;
+}
+.contact{
+    color: $blanco;
+    font-size: 30px;
+    font-family: 'notolight';
+    padding-left: 0.5em;
+
+    .linea-contact{
+        width: 4%;
+        height: 2px;
+        padding: -0.2em 0em;
+        margin: 0.1em 0em;
+        background: $blanco;
+        display: block;
+    }
+}
+.labels{
+    color: $blanco;
+    font-family: 'notobold';
+    font-size: 14px;
+    margin-top: 1em;
+}
+.contact-text{
+    color: $blanco;
+    font-size: 14px;
+    font-family: 'notoregular';
+    position: relative;
+    bottom: 0.8em;
+}
+.textfield{
+    width: 75%;
+    margin-left: 1em;
+    background: transparent;
+    border: solid $blanco;
+    color: $blanco;
+    font-size: 14px;
+    font-family: 'notoregular';
+}
+.message-txtField{
+    margin: 0em 0em 3em 1em;
+    background: transparent;
+    border: solid $blanco;
+    color: $blanco;
+    font-size: 14px;
+    font-family: 'notoregular';
+}
+.btn-message{
+    width: 35.2%;
+    margin-left: 1em;
+    padding: 1em 1em;
+    background: $light-blue;
+    color: $blanco;
+    border: none;
+}
+/*CONTACT*/
+
+/*FOOTER*/
+.footer{
+    background: $dark-bg;
+    color: $nav-bg;
+    font-size: 12px;
+    font-family: 'notoregular';
+    padding: 5em 0em;
+}
+.bottom-nav-item{
+    padding: 0em;
+    margin: 0%;
+    display: inline-block;
+}
+.bottom-nav-link{
+    text-decoration: none;
+    font-family: 'notobold';
+    font-size: 14px;
+    color: #435058;
+}
+.margin-bottom{
+    margin: 0em 0em 0em 1em;
+    padding: 0em;
+    position: relative;
+    right: 1em;
+}
+.bottom-simbol{
+    margin: 0em 1em 0em 1em;
+}
+/*FOOTER*/

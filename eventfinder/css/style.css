@@ -1,9 +1,10 @@
+/*HOME*/
+/*GLOBAL*/
 body {
   background: #EDE9E5;
   overflow-x: hidden;
 }
 
-/*GLOBAL*/
 .sub-title-white {
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -18,7 +19,6 @@ body {
   color: #333333;
 }
 
-/*GLOBAL*/
 /*TOP VAR*/
 .container-fluid {
   margin: 0%;
@@ -76,6 +76,7 @@ body {
 }
 
 /*TOP VAR*/
+/*GLOBAL*/
 /*COVER PAGE*/
 .cover-page-img {
   background: url(../img/portada.png);
@@ -342,3 +343,6 @@ body {
 }
 
 /*FOOTER*/
+/*HOME*/
+/*DETAIL PAGE*/
+/*DETAIL PAGE*/

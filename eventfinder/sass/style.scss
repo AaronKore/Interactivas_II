@@ -1,3 +1,6 @@
+
+/*HOME*/
+/*GLOBAL*/
 $pink: #FA617B;
 $dark-blue: #2F4056;
 $mid-blue: #4D798F;
@@ -5,13 +8,11 @@ $light-blue: #00B8B3;
 $white: #EDE9E5;
 $black: #333333;
 $lato: 'Lato', sans-serif;
-
 body{
     background: $white;
     overflow-x: hidden;
 }
 
-/*GLOBAL*/
 .sub-title-white{
     font-family: $lato;
     font-weight: 700;
@@ -24,7 +25,6 @@ body{
     font-size: 24pt;
     color: $black;
 }
-/*GLOBAL*/
 
 /*TOP VAR*/
 .container-fluid{
@@ -74,6 +74,7 @@ body{
     cursor: pointer;
 }
 /*TOP VAR*/
+/*GLOBAL*/
 
 /*COVER PAGE*/
 .cover-page-img{
@@ -309,3 +310,8 @@ margin: 5em 7em 0em 0em;
     margin: 0em 1em 0em 1em;
 }
 /*FOOTER*/
+/*HOME*/
+
+/*DETAIL PAGE*/
+
+/*DETAIL PAGE*/
